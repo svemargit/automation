@@ -1,0 +1,177 @@
+[1645980004.988][INFO]: Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 37998
+[1645980004.988][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1645980005.320][INFO]: [04a289ccc8e869ba385f1588f68efe5c] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/svemar/IdeaProjects/private/build/downloads/1645980003828_21980_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/svemar/IdeaProjects/private/build/downloads/1645980003828_21980_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1645980005.321][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/svemar/IdeaProjects/private/build/downloads/1645980003828_21980_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1645980005.322][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1645980005.322][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/cp/3_7zd5jj3zd6h4h1c41mhzl00000gn/T/.com.google.Chrome.9qoGrL data:,
+[1645980007.028][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1645980007.214][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1645980007.242][INFO]: [04a289ccc8e869ba385f1588f68efe5c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "98.0.4758.109",
+      "chrome": {
+         "chromedriverVersion": "98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151})",
+         "userDataDir": "/var/folders/cp/3_7zd5jj3zd6h4h1c41mhzl00000gn/T/.com.google.Chrome.9qoGrL"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52507"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "04a289ccc8e869ba385f1588f68efe5c"
+}
+[1645980007.349][INFO]: [04a289ccc8e869ba385f1588f68efe5c] COMMAND MaximizeWindow {
+
+}
+[1645980007.349][INFO]: Waiting for pending navigations...
+[1645980007.356][INFO]: Done waiting for pending navigations. Status: ok
+[1645980007.479][INFO]: Waiting for pending navigations...
+[1645980007.499][INFO]: Done waiting for pending navigations. Status: ok
+[1645980007.499][INFO]: [04a289ccc8e869ba385f1588f68efe5c] RESPONSE MaximizeWindow {
+   "height": 778,
+   "width": 1440,
+   "x": 0,
+   "y": 25
+}
+[1645980007.506][INFO]: [04a289ccc8e869ba385f1588f68efe5c] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1645980007.522][INFO]: [04a289ccc8e869ba385f1588f68efe5c] RESPONSE SetTimeouts
+[1645980007.535][INFO]: [04a289ccc8e869ba385f1588f68efe5c] COMMAND Navigate {
+   "url": "https://www.vodafone.cz/"
+}
+[1645980007.545][INFO]: Waiting for pending navigations...
+[1645980007.546][INFO]: Done waiting for pending navigations. Status: ok
+[1645980007.921][INFO]: Waiting for pending navigations...
+[1645980009.836][INFO]: Done waiting for pending navigations. Status: ok
+[1645980009.836][INFO]: [04a289ccc8e869ba385f1588f68efe5c] RESPONSE Navigate
+[1645980009.845][INFO]: [04a289ccc8e869ba385f1588f68efe5c] COMMAND Quit {
+
+}
+[1645980009.953][INFO]: [04a289ccc8e869ba385f1588f68efe5c] RESPONSE Quit
